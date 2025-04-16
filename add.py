@@ -1,18 +1,18 @@
 #coding:utf-8
 import json
 
-# Chemin du fichier
+
 fichier_json = 'donnees.txt'
 
-# Fonction pour charger des données existantes depuis le fichier
+
 def charger_donnees():
     try:
         with open(fichier_json, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
-        return []  # Retourne une liste vide si le fichier n'existe pas
+        return []  
     except json.JSONDecodeError:
-        return []  # Retourne une liste vide en cas d'erreur de décodage
+        return []  e
 
 # Fonction pour sauvegarder des données dans le fichier
 def sauvegarder_donnees(donnees):
