@@ -1,0 +1,8 @@
+[
+    {
+        "id": "1",
+        "izina": "umuceri",
+        "igiciro": 2000.0,
+        "igitigiri": 2
+    }
+]

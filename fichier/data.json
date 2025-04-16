@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "izina": "umuceri kigoma",
+        "igiciro": 3200.0,
+        "igitigiri": 30
+    },
+    {
+        "id": "2",
+        "izina": "ibiharage bitoto",
+        "igiciro": 1920.0,
+        "igitigiri": 22
+    },
+    {
+        "id": "3",
+        "izina": "soja",
+        "igiciro": 2200.0,
+        "igitigiri": 10
+    }
+]
