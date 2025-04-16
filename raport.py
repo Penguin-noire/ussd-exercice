@@ -7,7 +7,7 @@ def generer_rapport():
     nom_fichier_achats = 'achats.json'
     fichier_achats = chemin_fichier_achats / nom_fichier_achats
 
-    # Vérifier si le fichier des achats existe
+    
     if not fichier_achats.exists():
         print("Nta madosiye y'ibicuruzwa byaguzwe.")
         return
